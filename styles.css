@@ -1,125 +1,53 @@
 
 
 
-
-
-body{
-background-color:#c7c6b5;
-
-padding: 0;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.section1{
-
-
-  background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-    url(./pexels-mikhail-nilov-7988114.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
-  width: 100%;
-  height: 100vh;
+.section1 {
+  background-color: #1a1a2e; 
+  color: #ffffff;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-    gap: 10px;
   align-items: center;
+  justify-content: center;
   text-align: center;
-  margin-bottom: 30%;
-  
-
-  
-
-
-
+  padding: 80px 20px;
+  height: 100vh;
 
 }
 
 
 .profile-bar {
   display: flex;
-  align-items: center;
-  gap: 12px; 
+ 
+  
   position: fixed;
   top: 15px;
   left: 15px;
   z-index: 999;
 }
 
-.logo {
-  font-size: 1.5rem;
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.name {
+  font-size: 1.2rem;
   font-weight: bold;
-  color: white;
-  margin-top: 20px;
+  margin: 0;
+  position: fixed;
+  top: 50px;
+  left: 80px;
+  z-index: 999;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-.section1 h1 {
+.welcome-heading {
+  font-size: 1.8rem;
   font-weight: 600;
-font-size: 1.5em;
-  margin-bottom: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, cursive;
-
+  line-height: 1.4;
+  margin-bottom: 15px;
 }
-
-
-
-.section1 h2 {
-   max-width: 700px;
-  margin: 0 auto;
-  padding: 0 20px;
-  line-height: 1.6;
-  text-align: center;
-  font-weight: 600;
-  font-size: 4em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, cursive;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-}
-
-
-@media (max-width: 768px) {
-  .section1 h2 {
-    font-size: 2em;
-    line-height: 1.4;
-  }
-}
-
-
-
-
-
-
-
 
 .section1 p {
   background-color: rgba(255, 255, 255, 0.07); 
@@ -130,7 +58,7 @@ font-size: 1.5em;
   font-size: 1.3rem;
   line-height: 1.8;
   backdrop-filter: blur(4px); 
-  
+
 }
 
 
@@ -271,6 +199,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, c
 
 
 }
+
 
 
 
